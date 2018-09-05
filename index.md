@@ -6,7 +6,7 @@ I wrote this with behavioral video tracking in mind, where a fast and reliable w
 
 ## [UFC Oracle](https://arachnarchy.shinyapps.io/ufc_predict/)
 
-Mixed Martial Arts (MMA) is not a very data-informed sport (unlike, say, Baseball). Other nerdy fans have done amazingly detailed descriptive analyses, or come up with predictions based on small numbers of high level stats. Here, I used the R version of Keras to train a deep neural network with around 5000 past UFC matchups, comparing 47 nitty-gritty statistics per fighter. These include for example striking accuracy, takedown defense, age, win/loss ratio, etc. The model is currently ~76% accurate. It produces win likelihoods for most fighters on the UFC roster by just entering their names in this [Shiny app](https://arachnarchy.shinyapps.io/ufc_predict/).
+Mixed Martial Arts (MMA) is not a very data-informed sport (unlike, say, Baseball). Other nerdy fans have done detailed descriptive analyses, or come up with nifty predictors based on small numbers of high level stats. Here, I used the R version of Keras to train a deep neural network with around 5000 past UFC matchups, comparing 20 nitty-gritty statistics per fighter I mined from various sources. These career-level stats include for example striking accuracy, takedown defense, guard passes, leg reach, etc. The model is currently ~76% accurate. It produces win likelihoods for most fighters on the UFC roster by just entering their names in this [Shiny app](https://arachnarchy.shinyapps.io/ufc_predict/).
 
 ## [Field work rental car helper](https://arachnarchy.shinyapps.io/field_cars/)
 
