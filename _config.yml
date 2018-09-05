@@ -1,2 +1,3 @@
 name: Daniel Zurek's Data Page
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
